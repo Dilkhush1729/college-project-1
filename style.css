@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-1 {
+    height: 105px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding-right: 27px;
+}
+
+.nav-link {
+    display: inline;
+    text-decoration: none;
+    color: #262626;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+     margin-left: 20px;
+      
+}
+.nav-link:hover{
+    color: #ff7300;
+}
+.header-logo span{
+   border: 1px solid white;
+   font-size: 20px; 
+   text-align: center;
+   padding: 5.5%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.header-logo{
+margin-top: 15px;
+font-family: 'poppins-semibold', 'poppins', sans-serif
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: #ff7300;
+}
+
+.icon {
+    height: 100px;
+    width: 170px;
+    background-color: #262626;
+    color: #ffffff;
+    text-align: center;
+    padding: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login-logo {
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    margin-bottom: -5px;
+    margin-right: 2px;
+}
+.cart-logo{
+    height: 35px;
+    width: 45px;
+    border-radius: 100%;
+    margin-bottom: -5px;
+    margin-right: 2px;
+}
+.nav-item{
+    padding: 29px;
+    height: 30px;
+}
+.nav-item ul{
+    height: 40px;
+}
+
+/* container 2 */
+.container-2 {
+    background-image: url("https://static.wixstatic.com/media/fd6edb_8594da09dffe44c5876d34e9740451df~mv2.jpg/v1/fill/w_510,h_808,al_r,q_85,usm_0.66_1.00_0.01,enc_auto/fd6edb_8594da09dffe44c5876d34e9740451df~mv2.jpg");
+    height: 700px;
+    width: 1521px;
+    display: flex;
+    background-attachment: fixed;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    
+}
+
+.para-position {
+    position: absolute;
+    padding: 250px;
+}
+
+.title strong{
+    height: 75px;
+     width: auto;
+    font-size: 75px;
+    margin-left: 70px;
+    color: #ffffff;
+}
+
+.para-position p {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    color: white;
+     height: 55px;
+     margin-left: 100px;
+}
+.btn-3 {
+    height: 55px;
+    width: 209px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+}
+.btn-3:hover{
+    background-color: white;
+    color: black;
+}
+.btn-1{
+        height: 55px;
+        width: 209px;
+        font-size: 17px;
+
+}
+.btn-1:hover{
+    background-color: black;
+    color: white;
+}
+
+/* container 3 */
+.container-3{
+    padding: 7%;
+    text-align: center;
+}
+.c-2-para{
+    height: 200px;
+    width: cover;
+   font-size: 40px;
+font-family: "avenir-lt-w01_35-light1475496avenir-lt-w01_35-light1475496";
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 400;
+
+}
+.c-2-para button{
+    height: 55px;
+    width: 209px;
+    font-size: 17px;
+    background-color: white;
+    color: black;
+    font-family: "avenir-lt-w01_35-light1475496avenir-lt-w01_35-light1475496";
+}
+.c-2-para button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* container 4 */
+.container-4{
+    margin-top: 110px;
+    width: cover;
+    height: 850px;
+  margin-left: 250px;
+  position: relative;
+}
+.card{
+    height: 591px;
+    width: 582px;
+    background-color: #ff7300;
+    position: absolute;
+}
+.image-size{
+    position: absolute;
+    height: 476px;
+    width: 776px;
+    margin: 50px 170px 70px 70px;
+}
+.card-2{
+    position: absolute;
+    height: 460px;
+    width: 490px;
+    background-color: #262626;
+    margin: 270px 370px 0px 500px;
+    text-align: center;
+    color: white;
+    padding: 90px;
+    
+}
+h1{
+    color: #ff7300;
+    font-family: "poppins-semibold poppins ",sans-serif;
+}
+.card-2 p{
+font-family: "avenir-lt-w01_35-light1475496 avenir-lt-w05_35-light", sans-serif;
+font-size: 17px;
+font-weight: 400;
+
+}
+.card-2 button{
+    height: 40px;
+    width: 150px;
+    font-size: 17px;
+    background-color: #262626;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.card-2 button:hover{
+    background-color: #ffffff;
+    color: #262626;
+}
+ /* container 5 */
+.container-5{
+width: cover;
+height: 850px;
+text-align: center;
+font-size: 76px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.card-3{
+    width: 767px;
+    height: 650px;
+    background-color: #ff7300;
+    margin-right: 0px;
+    margin-left: auto;
+    position: relative;
+}
+.head-content span{
+   font-family: "poppins-semibold poppins" sans-serif;
+   font-size: 50px;
+}
+.image-list{
+    position: absolute;
+     margin-top: -550px;
+}
+ /* container 6 */
+.container-6{
+      margin-top: 870px;
+}
+.container-6 h2{
+    text-align: center;
+    font-size:70px;
+    margin-bottom: 90px;
+}
+.card-4{
+    background-color: #262626;
+    width: 1216.91px;
+    height: 328px;
+}
+ .image-list-2{
+    display: flex;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: -150px auto 0px 30px ;
+    text-align: center;
+    
+ }
+ .image-list-2 h3{
+    font-family: "poppins-semibold poppins" ,Arial, Helvetica, sans-serif;
+    font-size: 28px;
+ }
+ .image-list-2 p{
+font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_35-light", sans-serif;
+font-size: 17px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 400;
+color: #262626;
+
+ }
+ .image-bottom{
+    height: 383px;
+    width: 324px;
+     
+ }
+ .btn-2{
+    background-color: #ffffff;
+    color: #262626;
+    height: 50px;
+    width: 170px;
+    font-size: 17px;
+ }
+ .btn-2:hover{
+    background-color: #262626;
+    color: #ffffff;
+ }
+ .c6-button{
+    text-align: center;
+    margin-top: 140px;
+ }
+ /* container 7 */
+ .lower{
+    margin-top: 170px;
+    text-align: center;
+     font-family: "poppins-semibold", "poppins", sans-serif;
+font-size: 50px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 700;
+ }
+ .container-7{
+    background-image: url("https://static.wixstatic.com/media/fd6edb_3e4931bef30c45c8b3d95bfeeb8b1afa~mv2.jpg/v1/fill/w_1015,h_675,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/fd6edb_3e4931bef30c45c8b3d95bfeeb8b1afa~mv2.jpg");
+     height: 550px;
+     width: 100%;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     margin-top: 70px;
+     
+ }
+ input{
+    border-right: 1px solid black;
+    height: 32px;
+ }
+.card-5{
+    width: 542px;
+    height: 516px;
+    background-color: #262626;
+    color: #ffffff;
+    margin-left: 700px;
+    margin-top: -370px;
+    padding-top: 5%;  
+}
+h4{
+    color: #ff7300;
+    text-align: center;
+    font-family: "poppins-semibold", "poppins", sans-serif;
+font-size: 45px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 700;
+}
+.contact{
+    display: flex;
+    gap: 30px;
+    margin-left: 80px;
+    margin-top: 80px;
+     
+}
+.form{
+font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_35-light", sans-serif;
+font-size: 14px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 400;
+}
+.form-2 button{
+    height: 40px;
+    width: 209px;
+    font-size: 17px;
+    background :#262626;
+    border:2px solid #ffffff;
+    color: #ffffff;
+}
+.form-2 button:hover{
+    background-color: #ffffff;
+    color: #262626;
+}
+.comment{
+    height: 50px;
+    background-color: #262626;
+
+}
+.container-8{
+    margin-top: 260px;
+    height: 360px;
+    background-color: #262626;
+    display: flex;
+    padding: 4% ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.text{
+ text-decoration: none;
+}
+ .texts{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 20px;
+    
+ }
+ .text{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_35-light",'Times New Roman', Times, serif, sans-serif;
+ 
+}
+ .bottom-para-2{
+    color: #ffffff;
+    font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_25-light",'Times New Roman', Times, serif, sans-serif;
+    font-size: 16px;
+ }
+
+ /* container 9 */
+ footer{
+    height: 122px;
+    width: cover;
+    background-color: #ff7300;
+    color: #262626;
+    text-align: center;
+    padding: 4%;
+    font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_25-light",'Times New Roman', Times, serif, sans-serif;
+ }
+ footer a{
+     text-decoration: underline;
+     color: #262626;
+ }
+ html {
+    scroll-behavior: smooth;
+  }

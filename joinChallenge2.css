@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-1 {
+    height: 105px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding-right: 27px;
+}
+
+.nav-link {
+    display: inline;
+    text-decoration: none;
+    color: #262626;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+
+}
+
+.nav-link:hover {
+    color: #ff7300;
+}
+.header-logo span {
+    border: 1px solid white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-logo {
+    margin-top: 15px;
+    font-family: 'poppins-semibold', 'poppins', sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff7300;
+}
+
+.icon {
+    height: 100px;
+    width: 170px;
+    background-color: #262626;
+    color: #ffffff;
+    text-align: center;
+    padding: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login-logo {
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    margin-bottom: -5px;
+    margin-right: 2px;
+}
+
+.cart-logo {
+    height: 35px;
+    width: 45px;
+    border-radius: 100%;
+    margin-bottom: -5px;
+    margin-right: 2px;
+}
+
+.nav-item {
+    padding: 29px;
+    height: 30px;
+}
+
+.nav-item ul {
+    height: 40px;
+}
+
+/* container-2 */
+.container-2 {
+    height: 342px;
+    width: 100%;
+    margin-top: -5px;
+    text-align: center;
+    background-color: #262626;
+}
+
+.c2-image {
+    height: 342px;
+    width: 759px;
+    float: left;
+}
+
+.c2-heading {
+    font-family: 'poppins-semibold';
+    font-size: 48px;
+    font-weight: 700;
+    color: #ff7300;
+}
+
+.content {
+    padding-top: 100px;
+}
+
+.content p {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.container-3 {
+    padding-left: 30%;
+    padding-right: 20%;
+    padding-top: 7%;
+}
+
+.container-3 span {
+    font-family: "poppins-semibold", "poppins", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 700;
+}
+
+.container-3 p {
+    font-family: "avenir-lt-w01_35-light1475496";
+    font-size: 24px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 400;
+}
+.box {
+    height: 90px;
+    width: 90px;
+    background-color: #d8d8d8;
+    padding: 4% 4% 0% 4%;
+}
+u{
+    color: #ff7300;
+}
+.shift {
+    margin-top: -60px;
+    margin-left: 140px;
+}
+button{
+    height: 43px;
+    width: 132px;
+    background-color: #262626;
+    color: #ffffff;
+}
+.icon-2{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+}
+
+/* container-4 */
+
+.container-4{
+    margin-top: 80px;
+    height: 360px;
+    background-color: #262626;
+    display: flex;
+    padding: 4% ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.text{
+ text-decoration: none;
+}
+ .texts{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 20px; 
+ }
+ .text{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_35-light",'Times New Roman', Times, serif, sans-serif;
+}
+ .bottom-para-2{
+    color: #ffffff;
+    font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_25-light",'Times New Roman', Times, serif, sans-serif;
+    font-size: 16px;
+ }
+ /* container 5 */
+ footer{
+    height: 122px;
+    width: cover;
+    background-color: #ff7300;
+    color: #262626;
+    text-align: center;
+    padding: 4%;
+    font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_25-light",'Times New Roman', Times, serif, sans-serif;
+ }
+ footer a{
+     text-decoration: underline;
+     color: #262626;
+ }
+ html {
+    scroll-behavior: smooth;
+  }

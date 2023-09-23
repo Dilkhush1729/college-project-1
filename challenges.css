@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-1 {
+    height: 105px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding-right: 27px;
+}
+
+.nav-link {
+    display: inline;
+    text-decoration: none;
+    color: #262626;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+     margin-left: 20px;
+      
+}
+.nav-link:hover{
+    color: #ff7300;
+}
+.header-logo span{
+   border: 1px solid white;
+   font-size: 20px; 
+   text-align: center;
+   padding: 5.5%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.header-logo{
+margin-top: 15px;
+font-family: 'poppins-semibold', 'poppins', sans-serif
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: #ff7300;
+}
+.icon {
+    height: 100px;
+    width: 170px;
+    background-color: #262626;
+    color: #ffffff;
+    text-align: center;
+    padding: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.login-logo {
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    margin-bottom: -5px;
+    margin-right: 2px;
+}
+.cart-logo{
+    height: 35px;
+    width: 45px;
+    border-radius: 100%;
+    margin-bottom: -5px;
+    margin-right: 2px;
+}
+.nav-item{
+    padding: 29px;
+    height: 30px;
+}
+.nav-item ul{
+    height: 40px;
+}
+/* container-2 */
+
+.container-2{
+    margin-top: -7px;
+    height: 290px;
+    width: 100%;
+    background-color: #262626;
+    text-align: center;
+    padding-top: 5%;
+}
+.head{
+font-family: "poppins-semibold", "poppins", sans-serif;
+font-size: 70px;
+ font-weight: 700;
+ color: #ff7300;
+}
+.head-para{
+    margin-top: 19px;
+    color: #ffffff;
+    font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_35-light", sans-serif;
+font-size: 15px;
+font-weight: 400;
+}
+/* container-3 */
+.container-3{
+ padding: 7% 15% 0% 15% ;
+}
+.card{
+    height: 300px;
+    background-color: #262626;
+}
+.card-2{
+    height: 300px;
+    width: 930px;
+}
+.c3-card{
+    height: auto;
+    width: 930px; 
+    display: flex;  
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+}
+.card-image{
+    float: left;
+    width: 600px;
+    height: 300px;
+   
+}
+.card-image-2{
+    float: right;
+    width: 600px;
+    height: 300px;
+    margin-top: -300px;
+}
+.card-content{
+    text-align: center;
+    padding-top: 7%;
+}
+.card-content-2{
+    height: 300px;
+    padding-top: 7%;
+    padding-left: 10%;
+    background-color: #262626;
+}
+.card-content span{
+    font-size: 40px;
+    color: #ff7300;
+} 
+.card-content-2 span{
+    font-size: 40px;
+    color: #ff7300;
+}
+.card-para{
+    margin-top: 18px;
+    color: #ffffff;
+}
+.card-para-2{
+    margin-left: 55px;
+    margin-top: 18px;
+    color: #ffffff;
+}
+.card-btn{
+    margin-top: 18px;
+    height: 39px;
+    width: 133px;
+    font-size: 20px;
+}
+.card-btn:hover{
+    background-color:#ff7300;
+    color: #ffffff;
+}
+.container-8{
+    margin-top: 60px;
+    height: 360px;
+    background-color: #262626;
+    display: flex;
+    padding: 4% ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+ 
+ .texts{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 20px;
+    
+ }
+ .text{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_35-light",'Times New Roman', Times, serif, sans-serif;
+     text-decoration: none;
+}
+.text span{
+    color: #ff7300;
+}
+ .bottom-para-2{
+    color: #ffffff;
+    font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_25-light",'Times New Roman', Times, serif, sans-serif;
+    font-size: 16px;
+ }
+
+ footer{
+    height: 122px;
+    width: cover;
+    background-color: #ff7300;
+    color: #262626;
+    text-align: center;
+    padding: 4%;
+    font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_25-light",'Times New Roman', Times, serif, sans-serif;
+ }
+ footer a{
+     text-decoration: underline;
+     color: #262626;
+ }
+ html {
+    scroll-behavior: smooth;
+  }
